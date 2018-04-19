@@ -1,0 +1,233 @@
+/*	For max 480 px	*/
+
+body, .page-wrapper
+{
+	background-size: 100%;
+	/*background: #324184;*/
+	background-image: url('kiss2.jpg') fixed;
+    text-align: left;
+	font-size: 14px;
+	float: left;
+}
+a{	text-decoration: none;	}
+
+
+/*
+
+	Basic UI and positioning of the content 
+	on the verious screenes...
+
+*/
+.intro
+{
+	background-image: url('background2.jpg');
+	top: 1em;
+	width: 80%;
+	margin: 15% 8% 0% 8%;
+	position: relative;
+	padding: 2%;
+	border-style: none;
+	text-align: center;
+}
+
+fir aise log jo khud ki nahi khabar rakhte
+or kisi ke hi kya wo ho sakenge
+
+badfalta waqt kitne hi nazaare badal deta hai
+na tha maloom, tumko badal dega is kadar
+
+.summary p:last-child
+{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	word-spacing: 2px;
+}
+
+h1
+{   
+	z-index: 1;
+	position: fixed;
+	top: -.9em;
+	padding: 0.3em;
+    left: 0em;
+	right: 0em;
+	width: 100%;
+    font-size: 26px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+	background-color: #324184;
+	word-spacing: 0.3em;
+	box-shadow: 2px 10px 18px 2px #324184;
+}
+
+.intro h2              /*---------TRANSFORM---------*/
+{	
+	top: -2.5em;
+	width: 80%;
+	padding: 0% 7%;
+	position: absolute;
+    font-size: 18px;
+    line-height: 0.85;
+    text-align: center;
+}
+.intro h3
+{
+	text-decoration: underline;
+}
+
+/*-------------------------------*/
+
+.supporting
+{
+	width: 80%;
+	top: 50em;
+	margin: 8%;
+	border-style: none;
+	border-radius: 0 !important;
+	padding: 2%;
+	background-image: url(kiss.jpg);
+	background-attachment: fixed;
+}
+
+.intro h3, .supporting h3
+{
+	text-align: center;
+	font-size: 16px;
+	padding: 1%;
+}
+
+.supporting p
+{
+	width: 88%; 
+	position: auto;
+	padding: 0% 3%;
+	border-style: none;
+}
+
+footer:before {
+    content: '~~~ ';
+}
+footer
+{
+	margin-top: 10%;
+	padding: 4% 0%;
+	word-spacing: 0.3em;
+	border-style: solid none;
+	border-width: 0.003em;
+	text-align: center;
+	left: -2em;
+}
+footer:after {
+    content: ' ~~~';
+}
+
+/*------------------------------*/
+.sidebar
+{
+	width: 80%;
+	top: 50em;
+	margin: 8%;
+	border-style: none;
+	border-radius: 0 !important;
+	padding: 2%;
+	background-image: url(kiss.jpg);
+	background-attachment: fixed;
+}
+
+.sidebar h3
+{
+    text-align: center;
+    padding: 30px 20px 1em;
+	border-bottom-style: groove;
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0 2%;
+}
+
+#zen-resources, #design-archives
+{
+	text-align: center;
+}
+
+#design-selection, #design-archives, #zen-resources
+{
+	margin: 6% 4%;
+	width: 90%;
+	padding: 1%;
+	border-style: none;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 0 !important;
+}
+
+li{padding: 1%;}
+.design-selection li {text-align: right;}
+
+
+.design-name {
+    float: left;
+    max-width: 66%;
+}
+
+
+/*------------------------------------------*/
+
+@media screen and (max-width: 420px) 
+{
+	.intro
+	{
+		margin: 15% 0% 0% -1%;
+		width: 100%;
+		padding: 1%;
+	}
+	.intro h2
+	{
+		position: initial;
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+
+
+
+/*-
+
+mn
+
+
+/*--------
+
+	FONTS' decoration
+
+---------*/
+body
+{
+	font-family: Georgia, Cambria Math, Arial;
+}
+h1
+{
+	color: #fff;
+	font-family: Algerian, Cooper Black, Impact, Arial Black;
+	text-shadow: 0 0 4px rgba(68,0,32,0.6);   /*   must edit, else it'd be copied    */
+}
+h2
+{
+	color: #fff;
+	font-family: Bernard MT Condensed, Broadway, Arial Black;
+}
+.intro h3
+{
+	color: #fff;
+	font-family: Elephant, Britannic Bold, Arial Black;
+}
+h3
+{
+	color: red;
+	font-family: Castellar, Andalus, Agency FB, Georgia, Arial;
+	font-weight: bold;
+}
